@@ -18,7 +18,7 @@ def draw_circle(event,x,y,flags,param):
     elif event == cv2.EVENT_LBUTTONUP:
         drawing = False     
 
-img=cv2.imread("D:/lenovo laptop data/Pictures/book.jpg")
+img=cv2.imread("book.jpg")
 cv2.namedWindow('image')
 cv2.setMouseCallback('image',draw_circle)
 
